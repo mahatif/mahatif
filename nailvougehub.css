@@ -1,0 +1,85 @@
+ /* CSS styling for the landing page */
+    body {
+        background-color:lavenderblush;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      #gradient-bg {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient ( bottom, white, purple);
+      }
+    }
+
+    .hero {
+      background-image: url('landing_page_bg.jpg');
+      background-color: lavender;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    /* CSS styling for the home page */
+    .nails {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .nail-card {
+      border: 1px solid #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .nail-card img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .nail-card h2 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    .nail-card p {
+      margin: 0;
+    }
+
+    /* CSS styling for the add to cart page */
+    .cart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .cart-form {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    .cart-form input[type="number"] {
+      width: 50px;
+    }
+
+    .cart-form input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #4caf50;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  
